@@ -76,6 +76,7 @@ The database schema is defined in `prisma/schema.prisma`. Reference it any time 
 
 ### JSX Preview Pipeline
 
+
 `src/lib/transform/jsx-transformer.ts` uses `@babel/standalone` in the browser to compile JSX/TSX, resolves `@/` imports from the virtual FS, and injects the result into a sandboxed iframe. Entry point auto-detected as `App.jsx`, `App.tsx`, `index.jsx`, etc.
 
 ### Testing
